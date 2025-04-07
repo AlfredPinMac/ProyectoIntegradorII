@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Tecno';
+    src: url('neuropol/Neuropol.otf');
+  }
+
+.navbar-custom {
+    background-color: #091057;
+}
+
+.modal-centro{
+    text-align: center;
+    background-color: #024CAA;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.modal-header{
+    background-color: #091057;
+    text-align: center;
+    color: #EC8305;
+}
+
+.modal-footer{
+    background-color: #024CAA;
+}
+
+.btn-secondary:hover, .btn-primary:hover{
+    background-color: #EC8305;
+}
+
+.nav-link:hover{
+    color: #EC8305;
+}
+
+.encabezado0{
+    background-image: url("img/inicio.jpg");
+    height: 100px;
+    background-size: cover;
+    padding: 170px;
+    text-align: right;
+    padding-right: 230px;
+    padding-top: 150px;
+    color: #091057;
+    font-family: Tecno;
+    font-size: large;
+}
+
+.encabezado1{
+    background-image: url("img/.jpg");
+    height: 100px;
+    background-size: cover;
+    padding: 170px;
+    text-align: right;
+    padding-right: 160px;
+    color: #091057;
+    font-family: Tecno;
+}
+
+.encabezado2{
+    background-image: url("img/api1.jpg");
+    height: 100px;
+    background-size: cover;
+    padding: 170px;
+    text-align: right;
+    padding-right: 230px;
+    padding-top: 150px;
+    color: #091057;
+    font-family: Tecno;
+}
+
+.encabezado3{
+    background-image: url("img/api2.jpg");
+    height: 100px;
+    background-size: cover;
+    padding: 170px;
+    text-align: right;
+    padding-right: 230px;
+    padding-top: 150px;
+    color: #091057;
+    font-family: Tecno;
+}
+
+.encabezado4{
+    background-image: url("img/api3.jpg");
+    height: 100px;
+    background-size: cover;
+    padding: 170px;
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 150px;
+    color: #091057;
+    font-family: Tecno;
+}
+
+.encabezado5{
+    background-image: url("img/contenedor.jpg");
+    height: 100px;
+    background-size: cover;
+    padding: 170px;
+    text-align: right;
+    padding-right: 230px;
+    padding-top: 150px;
+    color: #091057;
+    font-family: Tecno;
+}
+
+.encabezado6{
+    background-image: url("img/nube.jpg");
+    height: 100px;
+    background-size: cover;
+    padding: 170px;
+    text-align: right;
+    padding-right: 270px;
+    padding-top: 150px;
+    color: #091057;
+    font-family: Tecno;
+}
+
+.card-title{
+    color: #EC8305;
+    font-family: Tecno;
+}
+
+.recuadro{
+    color: #024CAA;
+}
+
+.subtitulos{
+    color: #024CAA;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.texto, .list-group{
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.subtemas{
+    color: #EC8305;
+    padding-left: 50px;
+}
+
+.video{
+    text-align: center;
+    padding: 10px;
+}
+
+.abajo{
+    padding: 30px;
+    background-color: #024CAA;
+    text-align: center;
+    color: #DBD3D3;
+}
+
+.tabla{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+th{
+    background-color: #DBD3D3;
+}
+
+.img-fluid{
+    height: 200px;
+    width: 300px;
+}
+
+h4{
+    color: #EC8305;
+    font-family: Tecno;
+}
+
+.carrusel{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}

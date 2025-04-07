@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microservicios</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link  rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html"><img id="icon" class="icon" src="img/logo.png" height="25px" width="25px"> Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="TecWebAPI.html">Tecnologías de Web APIs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="DesWebAPI.html">Desarrollo de una Web API</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Micro.html">Microservicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ManejConten.html">Manejo de Contenedores</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="contenido">
+  <div class="encabezado4">
+    <h1>Microservicios</h1>
+  </div>
+
+  <div>
+    <h2 class="subtitulos">¿Qué son los microservicios?</h2>
+  </div>
+
+  <div class="contenido">
+    <p class="texto">Los microservicios son módulos ligeros con acople suelto que pueden servir como componentes básicos de las aplicaciones complejas basadas en la nube. Aunque los microservicios individuales pueden operar de forma independiente, tienen un acople suelto en una interfaz unificada.
+
+      La arquitectura de microservicios se considera un reemplazo moderno y flexible del modelo de desarrollo más tradicional de la arquitectura monolítica.<br><br>
+      
+      En una arquitectura monolítica, generalmente hay un servidor virtualizado o físico asignado a cada aplicación y esos servidores siempre están en ejecución. La disponibilidad y el escalamiento de la aplicación dependen completamente del hardware subyacente, que es una entidad fija.<br><br>
+      
+      Los microservicios, por el contrario, pueden operar varias instancias en un solo servidor o en varios servidores, a medida que los recursos escalan de forma dinámica para admitir las demandas de la carga de trabajo. Los microservicios individuales suelen estar en contenedores para mejorar la portabilidad y la escalabilidad.<br>
+    </p>
+
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2sFczigWppk?si=AVSwMcu3nwlaYu5G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+  </div>
+    <h4 class="subtemas"><br>Arquitectura monolítica en comparación con la arquitectura de los microservicios</h4>
+    <p class="texto">
+      Con las arquitecturas monolíticas, todos los procesos están estrechamente asociados y se ejecutan como un solo servicio. Esto significa que, si un proceso de una aplicación experimenta un pico de demanda, se debe escalar toda la arquitectura. Agregar o mejorar las características de una aplicación monolítica se vuelve más complejo a medida que crece la base de código. Esta complejidad limita la experimentación y dificulta la implementación de nuevas ideas. Las arquitecturas monolíticas aumentan el riesgo de la disponibilidad de la aplicación porque muchos procesos dependientes y estrechamente vinculados aumentan el impacto del error de un proceso.<br><br>
+
+Con una arquitectura de microservicios, una aplicación se crea con componentes independientes que ejecutan cada proceso de la aplicación como un servicio. Estos servicios se comunican a través de una interfaz bien definida mediante API ligeras. Los servicios se crean para las capacidades empresariales y cada servicio desempeña una sola función. Debido a que se ejecutan de forma independiente, cada servicio se puede actualizar, implementar y escalar para satisfacer la demanda de funciones específicas de una aplicación.
+    </p><br><br>
+
+  <h4 class="subtemas">Beneficios de los Microservicios<br></h4>
+  <div class="carrusel">
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/agilidad.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Agilidad</h3>
+        <p>Fomentan una organización de equipos pequeños e independientes que se apropian de los servicios</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/escala.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Escalado Flexible</h3>
+        <p>Permite a los equipos adecuarse a las necesidades de la infraestructura y mantener la disponibilidad si un servicio experimenta un aumento en la demanda.</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="img/sencilla.jpg" alt="New York" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Implementación Sencilla</h3>
+        <p>Facilita probar nuevas ideas y revertirlas si algo no funciona.</p>
+      </div>  
+    </div>
+    <div class="carousel-item">
+      <img src="img/libertad.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Libertad Tecnológica</h3>
+        <p>Tienen la libertad de elegir la mejor herramienta para resolver sus problemas específicos.</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="img/codigo.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Código Reutilizable</h3>
+        <p>Permite que una aplicación arranque por sí sola, ya que los desarrolladores pueden crear nuevas capacidades sin tener que escribir código desde cero.</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="img/resis.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Resitencia</h3>
+        <p>Si hay un error en todo el servicio, las aplicaciones lo manejan degradando la funcionalidad sin bloquear toda la aplicación.</p>
+      </div> 
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</div>
+
+  
+ 
+<div class="abajo">
+  <p>Referencias: <a href="https://aws.amazon.com/es/microservices/#:~:text=Los%20microservicios%20son%20un%20enfoque,servicios%20son%20equipos%20pequeños%20independientes.">Amazon AWS</a>/ <a href="https://www.intel.la/content/www/xl/es/cloud-computing/microservices.html">Intel</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologías de Web APIs</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link  rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html"><img id="icon" class="icon" src="img/logo.png" height="25px" width="25px"> Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="TecWebAPI.html">Tecnologías de Web APIs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="DesWebAPI.html">Desarrollo de una Web API</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Micro.html">Microservicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ManejConten.html">Manejo de Contenedores</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="contenido">
+  <div class="encabezado2">
+    <h1>Tecnologías <br>de Web APIs</h1>
+  </div>
+
+  <div>
+    <h2 class="subtitulos">Definición de API</h2>
+  </div>
+
+  <div class="contenido">
+    <p class="texto">Mecanismos que permiten a dos componentes de software comunicarse
+      entre sí mediante un conjunto de definiciones y protocolos. (Amazon,
+      2023)<br><br>
+      Una API (interfaz de programación de aplicaciones), es un conjunto de
+      reglas definidas que permiten que diferentes aplicaciones se comuniquen
+      entre sí. Actúa como una capa intermedia que procesa las transferencias
+      de datos entre sistemas, permitiendo a las empresas abrir sus datos y
+      funcionalidades de aplicaciones a desarrolladores externos, socios
+      comerciales y departamentos internos dentro de sus empresas. (IBM,
+      2023).
+      <br><br>
+      <h4 class="subtemas">Ejemplos:</h4>
+
+      <ul class="list-group">
+        <li class="list-group-item">Las API de Google: Búsqueda, Gmail, Traductor o Maps</li>
+        <li class="list-group-item">Paypal</li>
+        <li class="list-group-item">Incrustación de Videos de YouTube</li>
+        <li class="list-group-item">WhatsApp Business</li>
+        <li class="list-group-item">Instagram, Facebook</li>
+      </ul>
+    </p> 
+  </div>
+  <div class="video">
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/u2Ms34GE14U?si=Zi2JzkLPEpdi31AD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+  <div>
+    <h2 class="subtitulos">¿Cómo funcionan las API?</h2>
+    <p class="texto">La arquitectura de las API suele explicarse en términos de cliente y servidor. La aplicación que 
+      envía la solicitud se llama cliente, y la que envía la respuesta se llama servidor. En el ejemplo del tiempo, la 
+      base de datos meteorológicos del instituto es el servidor y la aplicación móvil es el cliente. 
+      <br><br>
+      Las API pueden funcionar de cuatro maneras diferentes, según el momento y el motivo de su creación.</p>
+      
+  <div class="tabla">
+      <table  border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Tipo de API</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>API de SOAP</td>
+            <td>Estas API utilizan el protocolo simple de acceso a objetos. El cliente y el servidor intercambian mensajes mediante XML. Se trata de una API menos flexible que era más popular en el pasado.</td>
+          </tr>
+          <tr>
+            <td>API de RPC</td>
+            <td>Estas API se denominan llamadas a procedimientos remotos. El cliente completa una función (o procedimiento) en el servidor, y el servidor devuelve el resultado al cliente.</td>
+          </tr>
+          <tr>
+            <td>API de WebSocket</td>
+            <td>La API de WebSocket es otro desarrollo moderno de la API web que utiliza objetos JSON para transmitir datos. Admite comunicación bidireccional entre aplicaciones cliente y servidor. El servidor puede enviar mensajes de devolución de llamada a los clientes conectados, por lo que es más eficiente que la API de REST.</td>
+          </tr>
+          <tr>
+            <td>API de REST</td>
+            <td>Estas son las API más populares y flexibles que se encuentran en la web actualmente. El cliente envía las solicitudes al servidor como datos. El servidor utiliza esta entrada del cliente para iniciar funciones internas y devuelve los datos de salida al cliente.</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+      
+  </div>
+  <div class="abajo">
+    <p>Referencias: <a href="https://aws.amazon.com/es/what-is/api/">https://aws.amazon.com/es/what-is/api/</a></p>
+  </div>
+
+
+</div>
+</body>
+</html>
